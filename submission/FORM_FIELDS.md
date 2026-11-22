@@ -13,6 +13,6 @@ AI coding agents now open pull requests that modify Infrastructure-as-Code (IaC)
 
 **Licence:** CC BY 4.0
 
-**Comments field (arXiv):** 4 pages, 2 figures, 1 table. Code and data: https://github.com/abhishek572003/iac-agent-security
+**Comments field (arXiv):** 6 pages, 4 figures, 5 tables. Code and data: https://github.com/abhishek572003/iac-agent-security
 
 **Upload:** TechRxiv → submission/Tiwari_IaC_Agents_preprint.pdf · arXiv → submission/arxiv_upload.zip

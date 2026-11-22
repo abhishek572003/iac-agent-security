@@ -1,0 +1,12 @@
+\begin{table}[t]\centering\caption{Most frequent checks introduced in deployable files: number (\%) of agent and human PRs introducing each.}\label{tab:checks}\footnotesize\begin{tabular}{@{}p{5.1cm}rr@{}}\toprule Check (Checkov name) & Agent & Human\\\midrule
+Ensure that Service Account Tokens are only mounted where nece… & 12 (2.6) & 23 (3.6) \\
+Containers should run as a high UID to avoid host conflict & 12 (2.6) & 23 (3.6) \\
+Ensure that the seccomp profile is set to docker/default or ru… & 13 (2.8) & 21 (3.3) \\
+Image should use digest & 12 (2.6) & 21 (3.3) \\
+Use read-only filesystem for containers where possible & 13 (2.8) & 19 (3.0) \\
+Minimize the admission of root containers & 9 (1.9) & 19 (3.0) \\
+Apply security context to your pods and containers & 8 (1.7) & 19 (3.0) \\
+Minimize the admission of containers with capabilities assigne… & 9 (1.9) & 18 (2.9) \\
+Minimize the admission of containers with the NET\_RAW capabili… & 9 (1.9) & 18 (2.9) \\
+Image Pull Policy should be Always & 8 (1.7) & 19 (3.0) \\
+\bottomrule\end{tabular}\end{table}

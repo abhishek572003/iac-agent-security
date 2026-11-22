@@ -1,0 +1,38 @@
+\noindent\textit{Example 1} (Claude Code, \texttt{iam.tf}): Ensure no IAM policies documents allow "*" as a statement's resource for restrictable actions.
+\begin{lstlisting}
+data "aws_iam_policy_document" "ab_tag_policy_document" {
+  count = local.create_iam_resources ? 1 : 0
+  statement {
+    effect    = "Allow"
+    resources = ["*"]
+    actions = [
+      "backup:ListTags",
+      "backup:TagResource",
+      "backup:UntagResource",
+\end{lstlisting}
+
+\noindent\textit{Example 2} (Claude Code, \texttt{deployment.yaml}): Containers should not run with allowPrivilegeEscalation.
+\begin{lstlisting}
+      containers:
+        - name: cockroach
+          image: cockroachdb/cockroach:latest-v24.2
+          command: ["cockroach"]
+          args: ["start-single-node", "--insecure"]
+          ports:
+            - name: sql
+              containerPort: 26257
+            - name: http
+\end{lstlisting}
+
+\noindent\textit{Example 3} (Claude Code, \texttt{staticweb.tf}): Ensure that Storage accounts disallow public access.
+\begin{lstlisting}
+resource "azurerm_storage_account" "staticweb" {
+  name                             = local.staticweb_storage_name
+  resource_group_name              = var.resource_group_name
+  location                         = var.location
+  account_kind                     = "StorageV2"
+  account_tier                     = "Standard"
+  account_replication_type         = "LRS"
+  table_encryption_key_type        = var.enable_cmk_encryption ? "Acco
+  queue_encryption_key_type        = var.enable_cmk_encryption ? "Acco
+\end{lstlisting}
