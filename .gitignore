@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+.DS_Store
+data/raw/
+*.aux
+*.log
+*.out
+data/checkov_*.json
+data/*_fetch.jsonl
+data/human_prs*.jsonl
+data/raw/
+data/checkov_agent/
+data/checkov_human/
+data/validation_key_DO_NOT_OPEN.csv
+paper/*.aux
+paper/*.log

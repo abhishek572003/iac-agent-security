@@ -1,0 +1,10 @@
+repo,number,group,url,tf_files,additions,deletions,fails_before,fails_after,introduced,fixed
+DevOops-Team/IaC,31,agent,https://github.com/DevOops-Team/IaC/pull/31,1,15,0,0,0,0,0
+sonatype/sca-reference-architectures,42,agent,https://github.com/sonatype/sca-reference-architectures/pull/42,19,275,222,10,10,0,0
+dryvist/iac-platform,606,agent,https://github.com/dryvist/iac-platform/pull/606,1,3,3,0,0,0,0
+kdt-ureka/ureka-gitops,8,agent,https://github.com/kdt-ureka/ureka-gitops/pull/8,5,123,20,0,0,0,0
+commitsByAddy/raj-durbar,3,agent,https://github.com/commitsByAddy/raj-durbar/pull/3,9,1139,34,13,14,2,1
+DevOops-Team/IaC,44,human,https://github.com/DevOops-Team/IaC/pull/44,1,23,3,6,6,0,0
+DevOops-Team/IaC,43,human,https://github.com/DevOops-Team/IaC/pull/43,6,840,3,5,19,14,0
+sonatype/sca-reference-architectures,41,human,https://github.com/sonatype/sca-reference-architectures/pull/41,2,2,2,9,9,0,0
+sonatype/sca-reference-architectures,40,human,https://github.com/sonatype/sca-reference-architectures/pull/40,40,17550,7437,91,107,22,6
