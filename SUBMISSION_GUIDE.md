@@ -5,7 +5,7 @@ Files: `paper/main.pdf` (named, for the preprint) · `paper/main_anon.pdf` (anon
 ---
 
 ## 1. Before anything goes public (you, about 1 hour)
-- [ ] **REQUIRED, confirm the 110 validation labels** (the paper states the author reviewed them) in `03-Education/PhD/Validation_Sheet_LABEL_ME.xlsx` (Claude pre-filled them; change any you disagree with, then tell Claude to re-run `scripts/05_compare.py`).
+- [ ] **Confirm the 110 validation labels.** After you confirm them, change the Validation sentence in `paper/main.tex` to "...and reviewed by the author" and rebuild with `paper/build.sh` (Claude can do this for you) in `03-Education/PhD/Validation_Sheet_LABEL_ME.xlsx` (Claude pre-filled them; change any you disagree with, then tell Claude to re-run `scripts/05_compare.py`).
 - [ ] **Read the whole paper once.** You must be able to explain every sentence (reviewers and professors will ask). Note anything unclear and ask Claude.
 - [ ] **Make the GitHub repo public** (`abhishek572003/iac-agent-security`): Settings → Danger zone → Change visibility. The paper's Data Availability section points to it. Raw downloaded files are not in git, only scripts and summary data.
 
